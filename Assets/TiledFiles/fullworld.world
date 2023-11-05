@@ -1,0 +1,153 @@
+{
+    "maps": [
+        {
+            "fileName": "Forest.tmx",
+            "height": 464,
+            "width": 752,
+            "x": 528,
+            "y": -128
+        },
+        {
+            "fileName": "TutorialTestMap.tmx",
+            "height": 464,
+            "width": 752,
+            "x": 528,
+            "y": 336
+        },
+        {
+            "fileName": "Field.tmx",
+            "height": 464,
+            "width": 752,
+            "x": 1280,
+            "y": 336
+        },
+        {
+            "fileName": "Hills.tmx",
+            "height": 464,
+            "width": 752,
+            "x": -224,
+            "y": -832
+        },
+        {
+            "fileName": "DeepForest.tmx",
+            "height": 464,
+            "width": 752,
+            "x": 528,
+            "y": -592
+        },
+        {
+            "fileName": "DeepForest2.tmx",
+            "height": 464,
+            "width": 752,
+            "x": -224,
+            "y": -592
+        },
+        {
+            "fileName": "TutorialTestMap2.tmx",
+            "height": 464,
+            "width": 752,
+            "x": -224,
+            "y": -128
+        },
+        {
+            "fileName": "Forest00.tmx",
+            "height": 464,
+            "width": 752,
+            "x": 368,
+            "y": -1984
+        },
+        {
+            "fileName": "Forest01.tmx",
+            "height": 464,
+            "width": 752,
+            "x": 1120,
+            "y": -1984
+        },
+        {
+            "fileName": "Forest02.tmx",
+            "height": 464,
+            "width": 752,
+            "x": 368,
+            "y": -2448
+        },
+        {
+            "fileName": "Forest03.tmx",
+            "height": 464,
+            "width": 752,
+            "x": 1120,
+            "y": -2448
+        },
+        {
+            "fileName": "Field00.tmx",
+            "height": 464,
+            "width": 752,
+            "x": 1280,
+            "y": -128
+        },
+        {
+            "fileName": "Cliff01.tmx",
+            "height": 8448,
+            "width": 10752,
+            "x": -10064,
+            "y": 768
+        },
+        {
+            "fileName": "Desert.tmx",
+            "height": 1792,
+            "width": 1280,
+            "x": 2064,
+            "y": 32
+        },
+        {
+            "fileName": "../../../../Frontier/Maps/Krzystof Maps/camp.tmx",
+            "height": 2016,
+            "width": 3584,
+            "x": 12144,
+            "y": 3776
+        },
+        {
+            "fileName": "../../../../Frontier/Maps/Krzystof Maps/city1.tmx",
+            "height": 2016,
+            "width": 3584,
+            "x": 9744,
+            "y": 5792
+        },
+        {
+            "fileName": "../../../../Frontier/Maps/Krzystof Maps/city2.tmx",
+            "height": 2016,
+            "width": 3584,
+            "x": 9744,
+            "y": 7808
+        },
+        {
+            "fileName": "../../../../Frontier/Maps/Krzystof Maps/city3.tmx",
+            "height": 2016,
+            "width": 3584,
+            "x": 13328,
+            "y": 7808
+        },
+        {
+            "fileName": "../../../../Frontier/Maps/Krzystof Maps/city4.tmx",
+            "height": 2016,
+            "width": 3584,
+            "x": 13328,
+            "y": 5792
+        },
+        {
+            "fileName": "../../../../Frontier/Maps/Krzystof Maps/forest.tmx",
+            "height": 2016,
+            "width": 3968,
+            "x": 12144,
+            "y": 1504
+        },
+        {
+            "fileName": "../../../../Frontier/Maps/Krzystof Maps/sub.tmx",
+            "height": 2272,
+            "width": 3520,
+            "x": 8624,
+            "y": 3520
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

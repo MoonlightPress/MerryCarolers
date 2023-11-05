@@ -1,0 +1,47 @@
+fileFormatVersion: 2
+guid: 1fdec2c542172714ea72bb322c9a4bb7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors:
+  - Errors detected in tileset 'Modern_Exteriors_Complete_Tileset.tsx'. Check the
+    tileset inspector for more details. Your map may be broken until these are fixed.
+  - Could not find tile 2770. Make sure the tilesets were successfully imported.
+  - Could not find tile 2771. Make sure the tilesets were successfully imported.
+  - Could not find tile 2772. Make sure the tilesets were successfully imported.
+  - Could not find tile 2773. Make sure the tilesets were successfully imported.
+  - Could not find tile 2946. Make sure the tilesets were successfully imported.
+  - Could not find tile 2947. Make sure the tilesets were successfully imported.
+  - Could not find tile 2948. Make sure the tilesets were successfully imported.
+  - Could not find tile 2949. Make sure the tilesets were successfully imported.
+  - Could not find tile 3122. Make sure the tilesets were successfully imported.
+  - Could not find tile 3123. Make sure the tilesets were successfully imported.
+  - Could not find tile 3124. Make sure the tilesets were successfully imported.
+  - Could not find tile 3125. Make sure the tilesets were successfully imported.
+  - Could not find tile 3298. Make sure the tilesets were successfully imported.
+  - Could not find tile 3299. Make sure the tilesets were successfully imported.
+  - Could not find tile 3300. Make sure the tilesets were successfully imported.
+  - Could not find tile 3301. Make sure the tilesets were successfully imported.
+  - Could not find tile 3474. Make sure the tilesets were successfully imported.
+  - Could not find tile 3475. Make sure the tilesets were successfully imported.
+  - Could not find tile 3476. Make sure the tilesets were successfully imported.
+  - Could not find tile 3477. Make sure the tilesets were successfully imported.
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 26
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets: []

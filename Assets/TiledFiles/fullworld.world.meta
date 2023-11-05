@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 907880e34ea4e7548a58ddbcd08c4a6e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: c6b19dac32d07094ca0a4ffc902a36c4, type: 3}
+  missingFiles:
+  - DeepForest2.tmx
+  errors:
+  - Could not generate asset path for '../../../../Frontier/Maps/Krzystof Maps/camp.tmx'
+  - Could not generate asset path for '../../../../Frontier/Maps/Krzystof Maps/city1.tmx'
+  - Could not generate asset path for '../../../../Frontier/Maps/Krzystof Maps/city2.tmx'
+  - Could not generate asset path for '../../../../Frontier/Maps/Krzystof Maps/city3.tmx'
+  - Could not generate asset path for '../../../../Frontier/Maps/Krzystof Maps/city4.tmx'
+  - Could not generate asset path for '../../../../Frontier/Maps/Krzystof Maps/forest.tmx'
+  - Could not generate asset path for '../../../../Frontier/Maps/Krzystof Maps/sub.tmx'
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 1
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
