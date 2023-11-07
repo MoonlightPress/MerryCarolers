@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{52EC5576-3B15-3122-B1B5-9946CACB2B95}</ProjectGuid>
+    <ProjectGuid>{5B6D7710-5CC0-1298-13EE-C7520F6EE7D6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SuperTiled2UnityEditor</AssemblyName>
@@ -860,7 +860,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SuperTiled2Unity.csproj">
-      <Project>{31AC6728-1A0C-8620-E3CE-FE89FCFE94C2}</Project>
+      <Project>{F4BA504C-DDDF-8C65-E623-FC7CE5EDBB18}</Project>
       <Name>SuperTiled2Unity</Name>
     </ProjectReference>
   </ItemGroup>

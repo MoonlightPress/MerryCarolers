@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{31AC6728-1A0C-8620-E3CE-FE89FCFE94C2}</ProjectGuid>
+    <ProjectGuid>{F4BA504C-DDDF-8C65-E623-FC7CE5EDBB18}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SuperTiled2Unity</AssemblyName>
