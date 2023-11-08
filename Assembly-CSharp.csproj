@@ -60,6 +60,9 @@
   <ItemGroup>
     <Compile Include="Assets\Navigation\MoveTo.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Destination.cs" />
+    <Compile Include="Assets\CarolerPlayer.cs" />
+    <Compile Include="Assets\Caroler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -849,11 +852,11 @@
     <Reference Include="NavMeshPlus">
       <HintPath>Library\ScriptAssemblies\NavMeshPlus.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="NavMeshPlusEditor">
       <HintPath>Library\ScriptAssemblies\NavMeshPlusEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
