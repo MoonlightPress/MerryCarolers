@@ -16,13 +16,26 @@ public class Caroler : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+
+        // Play audio on Start rather than Awake because
+        // Awake scripts execute in a nondeterministic order,
+        // getting our carols out of sync.
+        GetComponent<AudioSource>().Play();
     }
     // Update is called once per frame
     void Update()
     {
-      target = new Vector3 (Destination.position.x, Destination.position.y, transform.position.z);
-      if(isActive)  SetAgentPosition();
-        if (Input.GetKeyDown(KeyCode.G)) { Debug.Log(this.transform.position.ToString() + ":me. " + target.ToString() + ": destination"); }
+        target = new Vector3 (Destination.position.x, Destination.position.y, transform.position.z);
+
+        if (isActive)
+        {
+            SetAgentPosition();
+        }
+        
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            Debug.Log(this.transform.position.ToString() + ":me. " + target.ToString() + ": destination");
+        }
     }
 
  
@@ -37,7 +50,6 @@ public class Caroler : MonoBehaviour
         {
             isActive = true; 
             this.GetComponent<AudioSource>().mute = false;
-            collision.GetComponent<AudioSource>().mute = true;
         }
     }
 }

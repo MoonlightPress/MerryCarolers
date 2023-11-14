@@ -11,26 +11,39 @@ public class CarolerPlayer : MonoBehaviour
     public Vector3 target;
     NavMeshAgent agent;
     public Animator animator; // Reference to the Animator component
+
+    public AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
-         agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         animator = GetComponent<Animator>();
+
+        // Play audio on Start rather than Awake because
+        // Awake scripts execute in a nondeterministic order,
+        // getting our carols out of sync.
+        audioSource = GetComponent<AudioSource>();
+        audioSource.Play();
     }
     // Update is called once per frame
     void Update()
     {
-    SetTargetPosition();
+        SetTargetPosition();
         SetAgentPosition();
         UpdateAnimator();
-        if(Input.GetKeyDown(KeyCode.G)) { Debug.Log(this.transform.position.ToString() +":me. "+ target.ToString() +": destination" ); }
+        
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            Debug.Log(this.transform.position.ToString() +":me. "+ target.ToString() +": destination" );
+        }
     }
 
     void SetTargetPosition()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             target = Camera.main.ScreenToWorldPoint( Input.mousePosition );
         }
@@ -46,7 +59,7 @@ public class CarolerPlayer : MonoBehaviour
         float horizontal = direction.x;
         float vertical = direction.y;
 
-        if(Math.Abs(horizontal) > Math.Abs(vertical)) 
+        if (Math.Abs(horizontal) > Math.Abs(vertical)) 
         {
         if (horizontal > 0) 
             {
