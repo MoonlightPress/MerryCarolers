@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="112" height="63" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="112" height="63" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="1">
  <tileset firstgid="1" source="Modern_Exteriors_Complete_Tileset_32x32.tsx"/>
  <layer id="3" name="grount" width="112" height="63">
   <data encoding="csv">
