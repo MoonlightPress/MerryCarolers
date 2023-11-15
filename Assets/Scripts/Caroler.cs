@@ -10,6 +10,9 @@ public class Caroler : MonoBehaviour
     public Vector3 target;
     NavMeshAgent agent;
 
+    // The immediate bump in merriment when a caroler starts following the player.
+    public float merrimentIncreaseOnJoin = 1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,11 +48,11 @@ public class Caroler : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-     
-        if (collision.transform.gameObject.name == "Player") 
+        if (collision.transform.gameObject.name == "Player" && !isActive)
         {
-            isActive = true; 
+            isActive = true;
             this.GetComponent<AudioSource>().mute = false;
+            MerrimentController.IncreaseMerriment(merrimentIncreaseOnJoin);
         }
     }
 }

@@ -8,7 +8,6 @@ public class CarolerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log($"Current caroler count: ${CarolerCount}");
         CarolerCount = GetActiveCarolerCount();
     }
 
