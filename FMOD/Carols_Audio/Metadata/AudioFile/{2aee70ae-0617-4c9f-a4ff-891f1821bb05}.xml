@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2aee70ae-0617-4c9f-a4ff-891f1821bb05}">
+		<property name="assetPath">
+			<value>Carol_01_Man2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>143.23935416666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a5ac8eef-6acb-4419-8dbd-6df37f5439f0}</destination>
+		</relationship>
+	</object>
+</objects>

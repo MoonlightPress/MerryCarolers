@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{1ba66947-c4b5-4995-b33d-600c92d0056e}">
+		<property name="name">
+			<value>Dog</value>
+		</property>
+		<relationship name="folder">
+			<destination>{621f5c77-d909-40b0-b54c-5105526c3ff0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{20dac1ab-6677-47ba-8ad8-2704b1a18a4f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{20dac1ab-6677-47ba-8ad8-2704b1a18a4f}">
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.71999996900558472</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
