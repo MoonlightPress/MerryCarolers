@@ -221,7 +221,7 @@ PrefabInstance:
       objectReference: {fileID: 1526420024}
     - target: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_Name
-      value: Caroler (2)
+      value: Caroler (Man 1)
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_RootOrder
@@ -282,7 +282,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 1834514434}
   m_SourcePrefab: {fileID: 100100000, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
 --- !u!1 &156222439
 GameObject:
@@ -7528,7 +7531,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.1767221
+  m_FillAmount: 0.022678372
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -7621,7 +7624,7 @@ PrefabInstance:
       objectReference: {fileID: 1526420024}
     - target: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_Name
-      value: Caroler (3)
+      value: Caroler (Man 2)
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_RootOrder
@@ -7682,8 +7685,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 1901926194}
   m_SourcePrefab: {fileID: 100100000, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+--- !u!1 &402498386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+  m_PrefabInstance: {fileID: 402498385}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &520483081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7768,7 +7779,7 @@ PrefabInstance:
       objectReference: {fileID: 1526420024}
     - target: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_Name
-      value: Caroler (6)
+      value: Caroler (Dog)
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_RootOrder
@@ -7829,8 +7840,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 2022913788}
   m_SourcePrefab: {fileID: 100100000, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+--- !u!1 &557970119 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+  m_PrefabInstance: {fileID: 557970118}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &617191931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8096,7 +8115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 742819585}
   - component: {fileID: 742819584}
-  - component: {fileID: 742819583}
+  - component: {fileID: 742819586}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8104,14 +8123,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &742819583
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742819582}
-  m_Enabled: 1
 --- !u!20 &742819584
 Camera:
   m_ObjectHideFlags: 0
@@ -8178,6 +8189,24 @@ Transform:
   m_Father: {fileID: 1526420024}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &742819586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742819582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+--- !u!1 &801281492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+  m_PrefabInstance: {fileID: 8664934741293790250}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &806945346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8192,7 +8221,7 @@ PrefabInstance:
       objectReference: {fileID: 1526420024}
     - target: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_Name
-      value: Caroler (4)
+      value: Caroler (Woman 1)
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_RootOrder
@@ -8253,8 +8282,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 1059342230}
   m_SourcePrefab: {fileID: 100100000, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+--- !u!1 &806945347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+  m_PrefabInstance: {fileID: 806945346}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &862780905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8438,7 +8475,7 @@ PrefabInstance:
       objectReference: {fileID: 1526420024}
     - target: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_Name
-      value: Caroler (7)
+      value: Caroler (Reindeer)
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_RootOrder
@@ -8499,13 +8536,53 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 960573161}
   m_SourcePrefab: {fileID: 100100000, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+--- !u!1 &960573160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+  m_PrefabInstance: {fileID: 960573159}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &960573161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960573160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Parameter: Reindeer
+  TriggerEvent: 5
+  Value: 1
 --- !u!4 &1059342229 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
   m_PrefabInstance: {fileID: 806945346}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1059342230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806945347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Parameter: Woman 1
+  TriggerEvent: 5
+  Value: 1
 --- !u!1001 &1120350594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62555,6 +62632,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1241667357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+  m_PrefabInstance: {fileID: 1504895136}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1263722047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62716,8 +62798,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1666809948}
   m_SourcePrefab: {fileID: 100100000, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+--- !u!1 &1311755431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+  m_PrefabInstance: {fileID: 1311755430}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1378630350
 GameObject:
   m_ObjectHideFlags: 0
@@ -62930,7 +63020,7 @@ PrefabInstance:
       objectReference: {fileID: 1526420024}
     - target: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_Name
-      value: Caroler (1)
+      value: Caroler (Girl)
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_RootOrder
@@ -62991,7 +63081,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 1704334861}
   m_SourcePrefab: {fileID: 100100000, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
 --- !u!1 &1526420022
 GameObject:
@@ -63006,12 +63099,13 @@ GameObject:
   - component: {fileID: 1526420026}
   - component: {fileID: 1526420025}
   - component: {fileID: 1526420028}
+  - component: {fileID: 1526420032}
   - component: {fileID: 1526420029}
   - component: {fileID: 1526420030}
   - component: {fileID: 1526420031}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63157,7 +63251,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526420022}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d40bfbd83a3685146a7ae05146514a6b, type: 3}
@@ -63165,7 +63259,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -63302,6 +63396,53 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.32, y: 0.44}
   m_Direction: 0
+--- !u!114 &1526420032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526420022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -975948202
+      Data2: 1073990293
+      Data3: 1094501780
+      Data4: 2104003735
+    Path: event:/Music/Carol_01
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params:
+  - Name: Boy
+    Value: 0
+  - Name: Cat
+    Value: 0
+  - Name: Dog
+    Value: 0
+  - Name: Girl
+    Value: 0
+  - Name: Man
+    Value: 0
+  - Name: Merriment
+    Value: 0
+  - Name: Reindeer
+    Value: 0
+  - Name: Woman
+    Value: 0
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1541155476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63316,7 +63457,7 @@ PrefabInstance:
       objectReference: {fileID: 1526420024}
     - target: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_Name
-      value: Caroler (5)
+      value: Caroler (Woman 2)
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_RootOrder
@@ -63377,8 +63518,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 1634638477}
   m_SourcePrefab: {fileID: 100100000, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+--- !u!1 &1541155477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+  m_PrefabInstance: {fileID: 1541155476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1592315386
 GameObject:
   m_ObjectHideFlags: 0
@@ -63473,6 +63622,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
   m_PrefabInstance: {fileID: 1541155476}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1634638477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541155477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Parameter: Woman 2
+  TriggerEvent: 5
+  Value: 1
 --- !u!1 &1646093220
 GameObject:
   m_ObjectHideFlags: 0
@@ -63639,16 +63804,64 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
   m_PrefabInstance: {fileID: 1311755430}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1666809948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311755431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Parameter: Cat
+  TriggerEvent: 5
+  Value: 1
 --- !u!4 &1696562404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
   m_PrefabInstance: {fileID: 8664934741293790250}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1696562411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801281492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Parameter: Boy
+  TriggerEvent: 5
+  Value: 1
 --- !u!4 &1704334854 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
   m_PrefabInstance: {fileID: 1504895136}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1704334861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241667357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Parameter: Girl
+  TriggerEvent: 5
+  Value: 1
 --- !u!4 &1725068592 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -2655314040481695738, guid: 29b91a7df08720c47818f246348d8eaa, type: 3}
@@ -63857,11 +64070,48 @@ MonoBehaviour:
   m_Area: 0
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
+--- !u!1 &1834514427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+  m_PrefabInstance: {fileID: 93073931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1834514434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834514427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Parameter: Man 1
+  TriggerEvent: 5
+  Value: 1
 --- !u!4 &1901926193 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
   m_PrefabInstance: {fileID: 402498385}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1901926194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402498386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Parameter: Man 2
+  TriggerEvent: 5
+  Value: 1
 --- !u!1001 &1908089337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64132,6 +64382,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
   m_PrefabInstance: {fileID: 557970118}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2022913788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557970119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Parameter: Dog
+  TriggerEvent: 5
+  Value: 1
 --- !u!1001 &2135489263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64327,7 +64593,7 @@ PrefabInstance:
       objectReference: {fileID: 1526420024}
     - target: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_Name
-      value: Caroler
+      value: Caroler (Boy)
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_RootOrder
@@ -64376,5 +64642,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3558367653966514806, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 1696562411}
   m_SourcePrefab: {fileID: 100100000, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
