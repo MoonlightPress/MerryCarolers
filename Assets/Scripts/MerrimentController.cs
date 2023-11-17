@@ -6,14 +6,19 @@ public class MerrimentController : MonoBehaviour
 {
 
     private static readonly float MinMerriment = 0;
-    private static readonly float MaxMerriment = 1000;
+    public static readonly float MaxMerriment = 1000;
 
-    private static float CurrentMerriment = MinMerriment;
+    public static float CurrentMerriment { get; private set; }
 
     // Merriment is always increasing by multiples of this amount per second.
     public static float baseRate = 1f;
     // The current true rate at which merriment is increasing per second.
     private static float Rate = baseRate;
+
+    private void Start()
+    {
+        CurrentMerriment = MinMerriment;
+    }
 
     // Update is called once per frame
     void Update()
