@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class VictoryController : MonoBehaviour
@@ -9,6 +10,7 @@ public class VictoryController : MonoBehaviour
     {
         if (IsPlayerVictorious)
         {
+            DisplayVictoryText();
             return;
         }
 
@@ -22,5 +24,23 @@ public class VictoryController : MonoBehaviour
     private bool CheckPlayerVictorious()
     {
         return MerrimentController.IsMerrimentMaxedOut() && CarolerController.AreAllCarolersCollected();
+    }
+
+    private void DisplayVictoryText()
+    {
+        Debug.Log("Winner winner chicken dinner");
+
+        TextMeshProUGUI victory = GameObject.Find("VictoryUI").GetComponent<TextMeshProUGUI>();
+        if (!victory)
+        {
+            Debug.Log("Problem with victory text");
+            return;
+        }
+
+        string message = @"You win!
+
+Happy Holidays!";
+
+        victory.SetText(message);
     }
 }
