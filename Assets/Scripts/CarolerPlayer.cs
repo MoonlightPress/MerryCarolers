@@ -1,6 +1,4 @@
-using System.Collections;
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -34,10 +32,10 @@ public class CarolerPlayer : MonoBehaviour
         SetTargetPosition();
         SetAgentPosition();
         UpdateAnimator();
-        
+
         if (Input.GetKeyDown(KeyCode.G))
         {
-            Debug.Log(this.transform.position.ToString() +":me. "+ target.ToString() +": destination" );
+            Debug.Log(this.transform.position.ToString() + ":me. " + target.ToString() + ": destination");
         }
     }
 
@@ -45,7 +43,7 @@ public class CarolerPlayer : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            target = Camera.main.ScreenToWorldPoint( Input.mousePosition );
+            target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
     }
     void SetAgentPosition()
@@ -59,23 +57,23 @@ public class CarolerPlayer : MonoBehaviour
         float horizontal = direction.x;
         float vertical = direction.y;
 
-        if (Math.Abs(horizontal) > Math.Abs(vertical)) 
+        if (Math.Abs(horizontal) > Math.Abs(vertical))
         {
-        if (horizontal > 0) 
+            if (horizontal > 0)
             {
                 animator.SetBool("Up", false);
                 animator.SetBool("Down", false);
                 animator.SetBool("Left", false);
                 animator.SetBool("Right", true);
             }
-        else
+            else
             {
                 animator.SetBool("Up", false);
                 animator.SetBool("Down", false);
                 animator.SetBool("Left", true);
                 animator.SetBool("Right", false);
             }
-                       
+
         }
         else if (Math.Abs(horizontal) < Math.Abs(vertical))
         {
@@ -102,11 +100,11 @@ public class CarolerPlayer : MonoBehaviour
             animator.SetBool("Right", false);
         }
 
-  if(Input.GetKeyDown(KeyCode.R)) { Debug.Log(horizontal); }
+        if (Input.GetKeyDown(KeyCode.R)) { Debug.Log(horizontal); }
         // Set the parameters in the Animator
         animator.SetFloat("Horizontal", horizontal);
         animator.SetFloat("Vertical", vertical);
         animator.SetFloat("Speed", agent.velocity.magnitude);
     }
-  
+
 }

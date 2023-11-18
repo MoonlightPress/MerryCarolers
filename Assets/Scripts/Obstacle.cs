@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -14,7 +12,7 @@ public class Obstacle : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (CarolerController.CarolerCount < carolersRequired)
+        if (CarolerController.ActiveCarolerCount < carolersRequired)
         {
             return;
         }

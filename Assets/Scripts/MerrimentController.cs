@@ -37,7 +37,7 @@ public class MerrimentController : MonoBehaviour
 
     private void UpdateRate()
     {
-        Rate = baseRate + CarolerController.CarolerCount * baseRate;
+        Rate = baseRate + CarolerController.ActiveCarolerCount * baseRate;
     }
 
     public void ResetMerriment()
