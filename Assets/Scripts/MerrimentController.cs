@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MerrimentController : MonoBehaviour
@@ -23,12 +21,6 @@ public class MerrimentController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(
-            $"Current merriment: {CurrentMerriment}" +
-            $", " +
-            $"rate: {Rate}"
-        );
-
         UpdateRate();
 
         CurrentMerriment = Mathf.MoveTowards(CurrentMerriment, MaxMerriment, Rate * Time.deltaTime);
@@ -46,5 +38,11 @@ public class MerrimentController : MonoBehaviour
     private void UpdateRate()
     {
         Rate = baseRate + CarolerController.CarolerCount * baseRate;
+    }
+
+    public void ResetMerriment()
+    {
+        Rate = baseRate;
+        CurrentMerriment = MinMerriment;
     }
 }
