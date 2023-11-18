@@ -7536,7 +7536,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0
+  m_FillAmount: 0.52115583
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -7792,11 +7792,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1408794
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1408794
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_LocalScale.z
@@ -7850,6 +7850,10 @@ PrefabInstance:
       propertyPath: Parameter
       value: Dog
       objectReference: {fileID: 0}
+    - target: {fileID: 7868256034327269865, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -448011912, guid: ee4686f2cc48dc9428d96fcd6b552cbf, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8559,15 +8563,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1408794
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1408794
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1408794
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8617,6 +8621,10 @@ PrefabInstance:
       propertyPath: Parameter
       value: Reindeer
       objectReference: {fileID: 0}
+    - target: {fileID: 7868256034327269865, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -155005528, guid: 699801e50cd848547a99fbcd3892e6e4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -62864,10 +62872,6 @@ PrefabInstance:
       propertyPath: Parameter
       value: Cat
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 75b362da70e662a419322e17a006cdb8, type: 3}
     - target: {fileID: 7868256034327269865, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
       propertyPath: m_Size.x
       value: 0.32
