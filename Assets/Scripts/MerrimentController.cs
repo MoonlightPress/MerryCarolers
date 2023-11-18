@@ -45,4 +45,9 @@ public class MerrimentController : MonoBehaviour
         Rate = baseRate;
         CurrentMerriment = MinMerriment;
     }
+
+    public static bool IsMerrimentMaxedOut()
+    {
+        return CurrentMerriment == MaxMerriment;
+    }
 }
