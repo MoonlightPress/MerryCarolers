@@ -7,7 +7,7 @@ public class CarolerPlayer : MonoBehaviour
     public bool isPlayer;
     public Transform Destination;
     public Vector3 target;
-    NavMeshAgent agent;
+    public NavMeshAgent agent;
     public Animator animator; // Reference to the Animator component
 
     // Start is called before the first frame update
@@ -21,6 +21,12 @@ public class CarolerPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (VictoryController.IsPlayerVictorious)
+        {
+            HandlePlayerVictory();
+            return;
+        }
+
         SetTargetPosition();
         SetAgentPosition();
         UpdateAnimator();
@@ -99,4 +105,12 @@ public class CarolerPlayer : MonoBehaviour
         animator.SetFloat("Speed", agent.velocity.magnitude);
     }
 
+    private void HandlePlayerVictory()
+    {
+        animator.SetBool("Up", false);
+        animator.SetBool("Down", true);
+        animator.SetBool("Left", false);
+        animator.SetBool("Right", false);
+        animator.SetFloat("Speed", 0f);
+    }
 }
