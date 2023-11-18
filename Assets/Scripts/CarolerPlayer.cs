@@ -10,8 +10,6 @@ public class CarolerPlayer : MonoBehaviour
     NavMeshAgent agent;
     public Animator animator; // Reference to the Animator component
 
-    public AudioSource audioSource;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -19,12 +17,6 @@ public class CarolerPlayer : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         animator = GetComponent<Animator>();
-
-        // Play audio on Start rather than Awake because
-        // Awake scripts execute in a nondeterministic order,
-        // getting our carols out of sync.
-        audioSource = GetComponent<AudioSource>();
-        audioSource.Play();
     }
     // Update is called once per frame
     void Update()

@@ -17,11 +17,6 @@ public class Caroler : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-
-        // Play audio on Start rather than Awake because
-        // Awake scripts execute in a nondeterministic order,
-        // getting our carols out of sync.
-        GetComponent<AudioSource>().Play();
     }
     // Update is called once per frame
     void Update()
@@ -49,7 +44,6 @@ public class Caroler : MonoBehaviour
         if (collision.transform.gameObject.name == "Player" && !isActive)
         {
             isActive = true;
-            this.GetComponent<AudioSource>().mute = false;
             MerrimentController.IncreaseMerriment(merrimentIncreaseOnJoin);
         }
     }
