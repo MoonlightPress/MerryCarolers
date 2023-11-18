@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{faff9fd1-6c8f-4641-a341-1ec30469820c}">
+		<property name="name">
+			<value>Man 2</value>
+		</property>
+		<relationship name="folder">
+			<destination>{621f5c77-d909-40b0-b54c-5105526c3ff0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f19081cf-3a55-4b4e-8230-5ec4daabb53c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f19081cf-3a55-4b4e-8230-5ec4daabb53c}">
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.71999996900558472</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
