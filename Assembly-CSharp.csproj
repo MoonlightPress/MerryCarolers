@@ -58,11 +58,17 @@
     <Analyzer Include="D:\Program Files\Unity 2022.2.13f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MerrimentController.cs" />
     <Compile Include="Assets\Navigation\MoveTo.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Destination.cs" />
-    <Compile Include="Assets\CarolerPlayer.cs" />
-    <Compile Include="Assets\Caroler.cs" />
+    <Compile Include="Assets\Scripts\Obstacle.cs" />
+    <Compile Include="Assets\Scripts\CarolerPlayer.cs" />
+    <Compile Include="Assets\Thoth\Cartoon UI Pack\Scripts\StatsExample.cs" />
+    <Compile Include="Assets\Scripts\Candy.cs" />
+    <Compile Include="Assets\Scripts\CarolerController.cs" />
+    <Compile Include="Assets\Scripts\MerrimentBar.cs" />
+    <Compile Include="Assets\Scripts\Destination.cs" />
+    <Compile Include="Assets\Scripts\Caroler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -92,7 +98,6 @@
     <None Include="Assets\Frontier\Sprites\LimeZu\ModernInteriors\Modern_Office_Revamped\7_Modern_Office_Previous_Version\Modern_Office_old\READ ME.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Frontier\Sprites\LimeZu\ModernExteriors\Modern_Exteriors_16x16\Animated_16x16\GIF FORMAT ISSUE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Frontier\Sprites\LimeZu\ModernExteriors\READ_ME.txt" />
@@ -720,6 +725,9 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>D:\Program Files\Unity 2022.2.13f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
@@ -810,9 +818,6 @@
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
@@ -867,9 +872,25 @@
       <Project>{F4BA504C-DDDF-8C65-E623-FC7CE5EDBB18}</Project>
       <Name>SuperTiled2Unity</Name>
     </ProjectReference>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{0458444B-7ADB-A633-35FA-813F6A29E733}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="SuperTiled2UnityEditor.csproj">
       <Project>{5B6D7710-5CC0-1298-13EE-C7520F6EE7D6}</Project>
       <Name>SuperTiled2UnityEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{0848D24A-89FF-DC57-192E-0C74EB90D096}</Project>
+      <Name>FMODUnityResonance</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{2D285DFA-CF28-F6B5-58E6-1612755AB8A2}</Project>
+      <Name>FMODUnity</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{B75F4D50-732F-9AF5-AEED-CB0042722D66}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
