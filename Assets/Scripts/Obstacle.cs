@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 /// <summary>
@@ -9,6 +10,18 @@ using UnityEngine;
 public class Obstacle : MonoBehaviour
 {
     public int carolersRequired;
+
+    void Start()
+    {
+        TextMeshProUGUI requirement = gameObject.GetComponentInChildren<TextMeshProUGUI>();
+        if (!requirement)
+        {
+            Debug.Log($"Problem with requirement of ${carolersRequired}");
+            return;
+        }
+
+        requirement.SetText($"{carolersRequired}");
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
