@@ -7,6 +7,13 @@ public class StartGame : MonoBehaviour
 
     public void LoadScene()
     {
-        SceneManager.LoadSceneAsync(SceneName);
+        if (FMODUnity.RuntimeManager.HaveAllBanksLoaded)
+        {
+            SceneManager.LoadSceneAsync(SceneName, LoadSceneMode.Single);
+        }
+        else
+        {
+            Debug.Log("Failed to load FMOD banks");
+        }
     }
 }
