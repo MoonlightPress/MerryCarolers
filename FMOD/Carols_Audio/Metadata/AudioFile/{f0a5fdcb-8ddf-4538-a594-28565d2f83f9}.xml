@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f0a5fdcb-8ddf-4538-a594-28565d2f83f9}">
+		<property name="assetPath">
+			<value>Carol_02_Sleighbells.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>136.1786875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a5ac8eef-6acb-4419-8dbd-6df37f5439f0}</destination>
+		</relationship>
+	</object>
+</objects>

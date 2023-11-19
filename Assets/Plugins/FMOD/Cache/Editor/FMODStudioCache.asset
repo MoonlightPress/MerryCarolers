@@ -1,29 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9184757815339057665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Carol_01/Reindeer
-  m_EditorClassIdentifier: 
-  Name: Reindeer
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 221714421
-    data2: 1997289158
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &-9102137130144677036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44,6 +20,30 @@ MonoBehaviour:
   ID:
     data1: 221714421
     data2: 1997289158
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8863583512081891899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carols/Merriment
+  m_EditorClassIdentifier: 
+  Name: Merriment
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 3997397702
+    data2: 4219209605
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -96,7 +96,34 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-8316912717407402109
+--- !u!114 &-8450177637768207855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sFx/Candy
+  m_EditorClassIdentifier: 
+  Path: event:/sFx/Candy
+  Guid:
+    Data1: -290808265
+    Data2: 1163154717
+    Data3: 1383489977
+    Data4: 1422809491
+  Banks:
+  - {fileID: 2197318031723711777}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2724
+--- !u!114 &-7521390760162312844
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,21 +133,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Carol_01/Dog
+  m_Name: parameter:/Carols/Boy
   m_EditorClassIdentifier: 
-  Name: Dog
+  Name: Boy
   StudioPath: 
   Min: 0
   Max: 2
   Default: 0
   ID:
-    data1: 406144630
-    data2: 2666427049
+    data1: 531460390
+    data2: 665549019
   Type: 0
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-7893652988426611822
+--- !u!114 &-6973408886943809525
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,16 +157,40 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Carol_01/Cat
+  m_Name: parameter:/Carols/Man 2
   m_EditorClassIdentifier: 
-  Name: Cat
+  Name: Man 2
   StudioPath: 
   Min: 0
   Max: 2
   Default: 0
   ID:
-    data1: 2997151223
-    data2: 3986887126
+    data1: 3966585138
+    data2: 399777541
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5856419258097851446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carols/Man 1
+  m_EditorClassIdentifier: 
+  Name: Man 1
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 1211794102
+    data2: 1182464832
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -168,6 +219,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-4765204213673724936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carols/Dog
+  m_EditorClassIdentifier: 
+  Name: Dog
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 406144630
+    data2: 2666427049
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3498635623617128986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,43 +267,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-2988509815768110869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Carol_01
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Carol_01
-  Guid:
-    Data1: -975948202
-    Data2: 1073990293
-    Data3: 1094501780
-    Data4: 2104003735
-  Banks:
-  - {fileID: 2197318031723711777}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -2294474523076618437}
-  - {fileID: 247366087256442498}
-  - {fileID: -9184757815339057665}
-  - {fileID: 2349514266295883180}
-  - {fileID: -1755318352210449357}
-  - {fileID: 1186111754386388664}
-  - {fileID: -7893652988426611822}
-  - {fileID: -8316912717407402109}
-  - {fileID: 4550448662529592587}
-  - {fileID: 8223650742760019369}
-  MinDistance: 1.2
-  MaxDistance: 20
-  Length: 144604
 --- !u!114 &-2824136500017428722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,7 +315,34 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-2294474523076618437
+--- !u!114 &-2007933542842266451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sFx/Press_Start
+  m_EditorClassIdentifier: 
+  Path: event:/sFx/Press_Start
+  Guid:
+    Data1: -1418197382
+    Data2: 1107146981
+    Data3: -1686749565
+    Data4: -331589150
+  Banks:
+  - {fileID: 2197318031723711777}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4090
+--- !u!114 &-948770938475049689
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -287,7 +352,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Carol_01/Girl
+  m_Name: parameter:/Carols/Girl
   m_EditorClassIdentifier: 
   Name: Girl
   StudioPath: 
@@ -297,30 +362,6 @@ MonoBehaviour:
   ID:
     data1: 49360274
     data2: 2023590569
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-1755318352210449357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Carol_01/Woman 1
-  m_EditorClassIdentifier: 
-  Name: Woman 1
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 1197191950
-    data2: 801990182
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -365,8 +406,11 @@ MonoBehaviour:
   - {fileID: 6057192123387031427}
   - {fileID: 2197318031723711777}
   EditorEvents:
-  - {fileID: -2988509815768110869}
   - {fileID: 8805460719322530242}
+  - {fileID: -8450177637768207855}
+  - {fileID: -2007933542842266451}
+  - {fileID: 1667233683235876571}
+  - {fileID: 9120417713251887674}
   EditorParameters:
   - {fileID: -9102137130144677036}
   - {fileID: -2590840308661045240}
@@ -382,32 +426,8 @@ MonoBehaviour:
   - {fileID: 2197318031723711777}
   StringsBanks:
   - {fileID: 6057192123387031427}
-  cacheTime: 638358499824197959
+  cacheTime: 638359453826748342
   cacheVersion: 131609
---- !u!114 &247366087256442498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Carol_01/Boy
-  m_EditorClassIdentifier: 
-  Name: Boy
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 531460390
-    data2: 665549019
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &821706613783225985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -432,7 +452,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &1186111754386388664
+--- !u!114 &1488671132060685749
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -442,20 +462,47 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Carol_01/Man 1
+  m_Name: parameter:/Carols/Cat
   m_EditorClassIdentifier: 
-  Name: Man 1
+  Name: Cat
   StudioPath: 
   Min: 0
   Max: 2
   Default: 0
   ID:
-    data1: 1211794102
-    data2: 1182464832
+    data1: 2997151223
+    data2: 3986887126
   Type: 0
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &1667233683235876571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Start_Screen
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Start_Screen
+  Guid:
+    Data1: -562963770
+    Data2: 1320536609
+    Data3: -18980202
+    Data4: -268091749
+  Banks:
+  - {fileID: 2197318031723711777}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29462
 --- !u!114 &1910483207608111019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -495,34 +542,10 @@ MonoBehaviour:
   Path: FMOD/Carols_Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638358499824197959
+  lastModified: 638359453826687054
   FileSizes:
   - Name: Desktop
-    Value: 16565440
-  Exists: 1
---- !u!114 &2349514266295883180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Carol_01/Merriment
-  m_EditorClassIdentifier: 
-  Name: Merriment
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 3997397702
-    data2: 4219209605
-  Type: 0
-  IsGlobal: 1
-  Labels: []
+    Value: 33245888
   Exists: 1
 --- !u!114 &2634914176917805026
 MonoBehaviour:
@@ -559,30 +582,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Carol_02/Woman 2
-  m_EditorClassIdentifier: 
-  Name: Woman 2
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 2441296456
-    data2: 2932504805
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &4550448662529592587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Carol_01/Woman 2
   m_EditorClassIdentifier: 
   Name: Woman 2
   StudioPath: 
@@ -707,10 +706,10 @@ MonoBehaviour:
   Path: FMOD/Carols_Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638358499824197959
+  lastModified: 638359453826748342
   FileSizes:
   - Name: Desktop
-    Value: 1220
+    Value: 1380
   Exists: 1
 --- !u!114 &6229658572674971788
 MonoBehaviour:
@@ -732,6 +731,30 @@ MonoBehaviour:
   ID:
     data1: 531460390
     data2: 665549019
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6997985567539083897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carols/Woman 2
+  m_EditorClassIdentifier: 
+  Name: Woman 2
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 2441296456
+    data2: 2932504805
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -760,30 +783,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &8223650742760019369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Carol_01/Man 2
-  m_EditorClassIdentifier: 
-  Name: Man 2
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 3966585138
-    data2: 399777541
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &8463408212717087006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -804,6 +803,54 @@ MonoBehaviour:
   ID:
     data1: 3997397702
     data2: 4219209605
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8476315605795700463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carols/Reindeer
+  m_EditorClassIdentifier: 
+  Name: Reindeer
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 221714421
+    data2: 1997289158
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8546135441180741582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carols/Woman 1
+  m_EditorClassIdentifier: 
+  Name: Woman 1
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 1197191950
+    data2: 801990182
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -869,3 +916,40 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &9120417713251887674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Carols
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Carols
+  Guid:
+    Data1: -975948202
+    Data2: 1073990293
+    Data3: 1094501780
+    Data4: 2104003735
+  Banks:
+  - {fileID: 2197318031723711777}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -948770938475049689}
+  - {fileID: -7521390760162312844}
+  - {fileID: 8476315605795700463}
+  - {fileID: 6997985567539083897}
+  - {fileID: -8863583512081891899}
+  - {fileID: -6973408886943809525}
+  - {fileID: 8546135441180741582}
+  - {fileID: -5856419258097851446}
+  - {fileID: 1488671132060685749}
+  - {fileID: -4765204213673724936}
+  MinDistance: 1.2
+  MaxDistance: 20
+  Length: 298909
