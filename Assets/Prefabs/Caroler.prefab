@@ -126,7 +126,7 @@ MonoBehaviour:
   isActive: 0
   Destination: {fileID: 0}
   target: {x: 0, y: 0, z: 0}
-  merrimentIncreaseOnJoin: 1
+  merrimentIncreaseOnJoin: 3
 --- !u!58 &6663994429891499195
 CircleCollider2D:
   m_ObjectHideFlags: 0
