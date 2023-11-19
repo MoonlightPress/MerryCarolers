@@ -10402,6 +10402,11 @@ MonoBehaviour:
   m_Opacity: 1
   m_TintColor: {r: 1, g: 1, b: 1, a: 1}
   m_Visible: 1
+--- !u!1 &222805849 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1410019857281400, guid: b7c41e25aff624622a6ad05ca749fd27, type: 3}
+  m_PrefabInstance: {fileID: 862780905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &280108463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10608,7 +10613,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.00006
+  m_FillAmount: 0.3641425
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -10774,12 +10779,20 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1029443150734066, guid: ab9e341d2f3c14b3485c0e11c0b34cc7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1183411686}
   m_SourcePrefab: {fileID: 100100000, guid: ab9e341d2f3c14b3485c0e11c0b34cc7, type: 3}
 --- !u!4 &337270122 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4792822652301816, guid: ab9e341d2f3c14b3485c0e11c0b34cc7, type: 3}
   m_PrefabInstance: {fileID: 337270121}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &352855770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1027979330895092, guid: 3c02307927d35488dab1eb5a4085cc95, type: 3}
+  m_PrefabInstance: {fileID: 692325150}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &392709072 stripped
 GameObject:
@@ -11976,7 +11989,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1390275072063234, guid: 5ed318901905e4809802f213acb7d763, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1409140743}
   m_SourcePrefab: {fileID: 100100000, guid: 5ed318901905e4809802f213acb7d763, type: 3}
 --- !u!4 &520483082 stripped
 Transform:
@@ -12550,13 +12566,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1027979330895092, guid: 3c02307927d35488dab1eb5a4085cc95, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 692325155}
   m_SourcePrefab: {fileID: 100100000, guid: 3c02307927d35488dab1eb5a4085cc95, type: 3}
 --- !u!4 &692325151 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4869440073900900, guid: 3c02307927d35488dab1eb5a4085cc95, type: 3}
   m_PrefabInstance: {fileID: 692325150}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &692325155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352855770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -290808265
+      Data2: 1163154717
+      Data3: 1383489977
+      Data4: 1422809491
+    Path: event:/sFx/Candy
+  Event: 
+  PlayEvent: 5
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &709228679
 GameObject:
   m_ObjectHideFlags: 0
@@ -12687,6 +12737,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &731369168 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1642832500978644, guid: aa71ef4f616f246e4818af9faef43a9d, type: 3}
+  m_PrefabInstance: {fileID: 1649224499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &742819582
 GameObject:
   m_ObjectHideFlags: 0
@@ -12932,17 +12987,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1410019857281400, guid: b7c41e25aff624622a6ad05ca749fd27, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 862780907}
   m_SourcePrefab: {fileID: 100100000, guid: b7c41e25aff624622a6ad05ca749fd27, type: 3}
 --- !u!4 &862780906 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4336544041762426, guid: b7c41e25aff624622a6ad05ca749fd27, type: 3}
   m_PrefabInstance: {fileID: 862780905}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &862780907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222805849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -290808265
+      Data2: 1163154717
+      Data3: 1383489977
+      Data4: 1422809491
+    Path: event:/sFx/Candy
+  Event: 
+  PlayEvent: 5
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &912783060 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
   m_PrefabInstance: {fileID: 960573159}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924504220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1657626252624084, guid: 4057d2e2db219462d88ce4bbe167c104, type: 3}
+  m_PrefabInstance: {fileID: 1120350594}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &960573159
 PrefabInstance:
@@ -13122,13 +13216,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1657626252624084, guid: 4057d2e2db219462d88ce4bbe167c104, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1120350599}
   m_SourcePrefab: {fileID: 100100000, guid: 4057d2e2db219462d88ce4bbe167c104, type: 3}
 --- !u!4 &1120350595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4822082846567406, guid: 4057d2e2db219462d88ce4bbe167c104, type: 3}
   m_PrefabInstance: {fileID: 1120350594}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1120350599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924504220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -290808265
+      Data2: 1163154717
+      Data3: 1383489977
+      Data4: 1422809491
+    Path: event:/sFx/Candy
+  Event: 
+  PlayEvent: 5
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1149537934
 GameObject:
   m_ObjectHideFlags: 0
@@ -13167,6 +13295,42 @@ RectTransform:
   m_AnchoredPosition: {x: 1320, y: -500}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1183411682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1029443150734066, guid: ab9e341d2f3c14b3485c0e11c0b34cc7, type: 3}
+  m_PrefabInstance: {fileID: 337270121}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1183411686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183411682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -290808265
+      Data2: 1163154717
+      Data3: 1383489977
+      Data4: 1422809491
+    Path: event:/sFx/Candy
+  Event: 
+  PlayEvent: 5
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1194209192
 GameObject:
   m_ObjectHideFlags: 0
@@ -118031,7 +118195,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1542875890921660, guid: 3f782fddec55b4ccc95ba1d2e21a63a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1676680791}
   m_SourcePrefab: {fileID: 100100000, guid: 3f782fddec55b4ccc95ba1d2e21a63a0, type: 3}
 --- !u!4 &1263722048 stripped
 Transform:
@@ -118188,6 +118355,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c08f8d0613cd824090411ad351e60ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1409140739 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1390275072063234, guid: 5ed318901905e4809802f213acb7d763, type: 3}
+  m_PrefabInstance: {fileID: 520483081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1409140743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409140739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -290808265
+      Data2: 1163154717
+      Data3: 1383489977
+      Data4: 1422809491
+    Path: event:/sFx/Candy
+  Event: 
+  PlayEvent: 5
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1443204755
 GameObject:
   m_ObjectHideFlags: 0
@@ -118671,7 +118874,7 @@ MonoBehaviour:
       Data2: 1073990293
       Data3: 1094501780
       Data4: 2104003735
-    Path: event:/Music/Carol_01
+    Path: event:/Music/Carols
   Event: 
   PlayEvent: 1
   StopEvent: 2
@@ -119054,18 +119257,88 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1642832500978644, guid: aa71ef4f616f246e4818af9faef43a9d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1649224504}
   m_SourcePrefab: {fileID: 100100000, guid: aa71ef4f616f246e4818af9faef43a9d, type: 3}
 --- !u!4 &1649224500 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4565206862909400, guid: aa71ef4f616f246e4818af9faef43a9d, type: 3}
   m_PrefabInstance: {fileID: 1649224499}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1649224504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731369168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -290808265
+      Data2: 1163154717
+      Data3: 1383489977
+      Data4: 1422809491
+    Path: event:/sFx/Candy
+  Event: 
+  PlayEvent: 5
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &1666809947 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}
   m_PrefabInstance: {fileID: 1311755430}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1676680787 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1542875890921660, guid: 3f782fddec55b4ccc95ba1d2e21a63a0, type: 3}
+  m_PrefabInstance: {fileID: 1263722047}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1676680791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676680787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -290808265
+      Data2: 1163154717
+      Data3: 1383489977
+      Data4: 1422809491
+    Path: event:/sFx/Candy
+  Event: 
+  PlayEvent: 5
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &1696562404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3807377293571724140, guid: fd1262466e52886479fbd002030dd0e7, type: 3}

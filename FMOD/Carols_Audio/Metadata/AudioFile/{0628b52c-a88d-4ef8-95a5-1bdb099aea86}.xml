@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0628b52c-a88d-4ef8-95a5-1bdb099aea86}">
+		<property name="assetPath">
+			<value>Candy_2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.7246666666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a5ac8eef-6acb-4419-8dbd-6df37f5439f0}</destination>
+		</relationship>
+	</object>
+</objects>
