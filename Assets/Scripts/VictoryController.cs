@@ -37,7 +37,7 @@ public class VictoryController : MonoBehaviour
             return;
         }
 
-        string message = @"You win!
+        string message = @"You win
 
 Happy Holidays!";
 
